@@ -14,6 +14,9 @@ module.exports = {
         'h5': '1.25rem',
         'h6': '1rem',
       },
+      boxShadow: {
+        'shadow_regular': '0 10px 25px  rgba(37, 42, 52, 0.08)',
+      },
       screens: {
         'desktop': '1440px',
         'laptop': '1140px',
@@ -25,6 +28,7 @@ module.exports = {
         'theme_color': '#219D80',
         'heading_color': '#252A34',
         'subheading_color': '#444444',
+        'subheading_second_color': '#555555',
       },
     },
   },
