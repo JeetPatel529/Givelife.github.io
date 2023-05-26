@@ -1,11 +1,13 @@
 <script>
     import About_Us from './About_Us.vue'
     import LatestCaseSlider from './LatestCaseSlider.vue'
+    import Footer from './Footer.vue'
     export default {
         name: 'GiveLife',
         components: {
             About_Us,
-            LatestCaseSlider
+            LatestCaseSlider,
+            Footer,
         }
     }
 </script>
@@ -162,5 +164,8 @@
         </div>
     </section>
 
+
+
+    <Footer />
 
 </template>
